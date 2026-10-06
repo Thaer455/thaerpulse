@@ -18,7 +18,7 @@ function Contact() {
     const form = event.currentTarget;
     const formData = new FormData(form);
 
-    formData.append("access_key", "DEIN_WEB3FORMS_ACCESS_KEY_HIER");
+    formData.append("access_key", "72196f99-3294-4f35-843b-81f3813fc85f");
 
     formData.append(
       "subject",
