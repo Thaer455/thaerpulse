@@ -1,29 +1,31 @@
 ﻿function About() {
   return (
-    <section id="about" className="section">
-      <div className="section-container">
-        <p className="section-label">ABOUT</p>
+    <section className="section about-section" id="about">
+      <div className="section-heading">
+        <p className="section-label">About</p>
 
-        <div>
-          <h2>Developer with a passion for building.</h2>
+        <h2>Developer with a passion for building.</h2>
+      </div>
 
-          <p className="section-text">
-            I'm a trained Fachinformatiker für Anwendungsentwicklung
-            with a strong interest in software engineering and modern
-            web technologies.
-          </p>
+      <div className="about-content">
+        <p>
+          I’m a trained Fachinformatiker für Anwendungsentwicklung with
+          practical experience in software development, IT support and
+          Windows Server administration.
+        </p>
 
-          <p className="section-text">
-            I enjoy working on real-world problems, designing practical
-            solutions and learning new technologies by building actual
-            software.
-          </p>
+        <p>
+          I enjoy solving real-world problems, developing practical software
+          solutions and supporting reliable IT systems. My experience includes
+          application development as well as 1st and 2nd level IT support.
+        </p>
 
-          <p className="section-text">
-            My main interests are frontend and backend development,
-            algorithms, databases and clean software architecture.
-          </p>
-        </div>
+        <p>
+          My main interests are frontend and backend development, algorithms,
+          databases, clean software architecture and modern IT infrastructure.
+          I enjoy learning new technologies by building and working with
+          real-world systems.
+        </p>
       </div>
     </section>
   );

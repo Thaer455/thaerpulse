@@ -4,17 +4,19 @@
       <div className="hero-container">
         <div className="hero-content">
           <p className="hero-eyebrow">
-            Junior Software Developer · Berlin
+            Junior Software Developer · IT Support · Windows Server
           </p>
 
           <h1>
-            I build
-            <span>digital products.</span>
+            I build and support
+            <span>digital solutions.</span>
           </h1>
 
           <p className="hero-description">
-            I’m Thaer Issa, a Junior Software Developer focused on building
-            clean, reliable and user-friendly web applications.
+            I’m Thaer Issa, a Junior Software Developer with experience in
+            application development, Windows Server administration, and 1st
+            and 2nd level IT support. I enjoy building reliable software while
+            also understanding and supporting the systems behind it.
           </p>
 
           <div className="hero-actions">
