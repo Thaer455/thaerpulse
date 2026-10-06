@@ -1,4 +1,8 @@
-﻿function Skills() {
+﻿import { useLanguage } from "../i18n";
+
+function Skills() {
+  const { language } = useLanguage();
+
   const skills = [
     "Java",
     "PHP",
@@ -12,7 +16,12 @@
     <section className="section skills-section" id="skills">
       <div className="section-heading">
         <p className="section-label">Skills</p>
-        <h2>Technologies & IT skills I work with.</h2>
+
+        <h2>
+          {language === "de"
+            ? "Technologien und IT-Kenntnisse, mit denen ich arbeite."
+            : "Technologies & IT skills I work with."}
+        </h2>
       </div>
 
       <div className="skills-grid">

@@ -6,6 +6,7 @@ import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
+import { LanguageProvider } from "./i18n";
 import "./App.css";
 
 function App() {
@@ -19,24 +20,26 @@ function App() {
   }, [theme]);
 
   return (
-    <div className="app">
-      <Navbar
-        theme={theme}
-        onToggleTheme={() =>
-          setTheme((current) => (current === "dark" ? "light" : "dark"))
-        }
-      />
+    <LanguageProvider>
+      <div className="app">
+        <Navbar
+          theme={theme}
+          onToggleTheme={() =>
+            setTheme((current) => (current === "dark" ? "light" : "dark"))
+          }
+        />
 
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
+        <main>
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+        </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </LanguageProvider>
   );
 }
 
